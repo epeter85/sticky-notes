@@ -1,0 +1,36 @@
+{
+  "name": "sticky-notes",
+  "version": "1.0.0",
+  "description": "A React Application",
+  "main": "Note.js",
+  "scripts": {
+    "build": "babel js -d build",
+    "start": "open http://localhost:3000 & httpster -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epeter85/sticky-notes.git"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "keywords": [
+    "react",
+    "javascript"
+  ],
+  "author": "Erik Peterson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epeter85/sticky-notes/issues"
+  },
+  "homepage": "https://github.com/epeter85/sticky-notes#readme",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-react": "^6.11.1"
+  },
+  "dependencies": {
+    "httpster": "^1.0.3"
+  }
+}
